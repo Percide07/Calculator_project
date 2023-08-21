@@ -8,13 +8,135 @@ body {
     display: flex;
     justify-content: center;
     align-content: center;
+    font-size: 10px;
 }
 #calcul {
-    /* display: flex; */
+    display: flex ;
+    flex-direction: column ;
+    justify-content: space-around;
     border: solid 2px;
-    /* flex-direction: column; */
-    width: 200px;
+    margin-top: 200px;
+    width: 350px;
+    height: 650px;
+    background-color: black;
 }
 #screen {
-    border: solid 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    font-size: 80px;
+    height: 100px;
+    color: white;
+    border-radius: 10px;
+}
+#sec1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+#sec2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+#sec3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+#sec4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+#sec5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid black;
+}
+input {
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+#ac{
+    background-color:#a5a5a5 ;
+}
+#plsm{
+    background-color: #a5a5a5;
+}
+#mod{
+    background-color: #a5a5a5;
+}
+#div{
+    background-color: #ff9f0c;
+    color: white;
+}
+#sev{
+    background-color: #333333;
+    color: white;
+}
+#eight{
+    background-color: #333333;
+    color: white;
+}
+#nine{
+    background-color: #333333;
+    color: white;
+}   
+#time{
+    background-color: #ff9f0c;
+    color: white;
+}
+#four{
+    background-color: #333333;
+    color: white;
+}
+#five{
+    background-color: #333333;
+    color: white;
+}
+#six{
+    background-color: #333333;
+    color: white;
+}
+#min{
+    background-color: #ff9f0c;
+    color: white;
+}
+#one{
+    background-color: #333333;
+    color: white;
+}
+#two{
+    background-color: #333333;
+    color: white;
+}
+#three{
+    background-color: #333333;
+    color: white;
+}
+#plus{
+    background-color: #ff9f0c;
+    color: white;
+}
+#zero{
+    background-color: #333333;
+    color: white;
+    width: 150px;
+}
+#dec{
+    background-color: #333333;
+    color: white;
+}
+#equal{
+    background-color: #ff9f0c;
+    color: white;
 }
