@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#calcul {
+    /* display: flex; */
+    border: solid 2px;
+    /* flex-direction: column; */
+    width: 200px;
+}
+#screen {
+    border: solid 1px;
+}
